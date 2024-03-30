@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.PassTimeProcessorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:19" hostname="DESKTOP-LCK14AR" time="0.029">
+  <properties/>
+  <testcase name="cd_account_accrues_interest_4_times_in_one_month()" classname="banking.PassTimeProcessorTest" time="0.001"/>
+  <testcase name="if_account_has_less_than_$100_as_a_month_passes_it_is_hit_with_a_$25_minimum_balance_fee()" classname="banking.PassTimeProcessorTest" time="0.002"/>
+  <testcase name="account_balance_gains_apr_as_months_pass()" classname="banking.PassTimeProcessorTest" time="0.002"/>
+  <testcase name="if_account_has_$100_or_more_as_a_month_passes_it_is_not_hit_with_a_$25_minimum_balance_fee()" classname="banking.PassTimeProcessorTest" time="0.006"/>
+  <testcase name="if_account_has_no_money_it_is_removed_from_bank()" classname="banking.PassTimeProcessorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

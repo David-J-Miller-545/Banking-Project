@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CommandStorageTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:17" hostname="DESKTOP-LCK14AR" time="0.59">
+  <properties/>
+  <testcase name="command_storage_can_store_an_invalid_command_and_give_it_back()" classname="banking.CommandStorageTest" time="0.001"/>
+  <testcase name="command_storage_doesnt_return_accounts_that_have_been_removed()" classname="banking.CommandStorageTest" time="0.297"/>
+  <testcase name="command_storage_doesnt_return_history_from_an_account_that_have_been_removed()" classname="banking.CommandStorageTest" time="0.003"/>
+  <testcase name="command_storage_can_return_a_transfer_transaction_under_both_accounts()" classname="banking.CommandStorageTest" time="0.007"/>
+  <testcase name="command_storage_can_return_two_accounts_transaction_histories()" classname="banking.CommandStorageTest" time="0.005"/>
+  <testcase name="command_storage_formats_id_to_be_8_digits()" classname="banking.CommandStorageTest" time="0.021"/>
+  <testcase name="command_storage_rebuilds_output_at_the_beginning_of_get()" classname="banking.CommandStorageTest" time="0.006"/>
+  <testcase name="command_storage_can_return_status_of_two_accounts()" classname="banking.CommandStorageTest" time="0.009"/>
+  <testcase name="command_storage_can_return_status_of_an_account_that_has_been_created()" classname="banking.CommandStorageTest" time="0.003"/>
+  <testcase name="command_can_store_2_invalid_commands()" classname="banking.CommandStorageTest" time="0.004"/>
+  <testcase name="command_storage_can_store_two_valid_account_transactions()" classname="banking.CommandStorageTest" time="0.003"/>
+  <testcase name="command_storage_can_get_an_entire_list_of_invalid_commands()" classname="banking.CommandStorageTest" time="0.006"/>
+  <testcase name="command_storage_can_return_a_multiple_accounts_transaction_histories_in_order()" classname="banking.CommandStorageTest" time="0.028"/>
+  <testcase name="command_storage_can_store_a_valid_account_transaction_and_give_it_back()" classname="banking.CommandStorageTest" time="0.007"/>
+  <testcase name="command_storage_can_return_the_current_status_of_an_account()" classname="banking.CommandStorageTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

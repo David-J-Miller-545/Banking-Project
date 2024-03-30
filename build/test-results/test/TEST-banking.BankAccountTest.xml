@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.BankAccountTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:17" hostname="DESKTOP-LCK14AR" time="0.065">
+  <properties/>
+  <testcase name="account_when_withdrawn_from_twice_works()" classname="banking.BankAccountTest" time="0.055"/>
+  <testcase name="account_balance_decreases_to_zero_when_withdrawn_more_than_balance()" classname="banking.BankAccountTest" time="0.002"/>
+  <testcase name="account_when_deposited_twice_into_works()" classname="banking.BankAccountTest" time="0.0"/>
+  <testcase name="account_balance_increases_when_deposited_into()" classname="banking.BankAccountTest" time="0.001"/>
+  <testcase name="account_when_created_has_supplied_apr_value()" classname="banking.BankAccountTest" time="0.001"/>
+  <testcase name="account_balance_decreases_when_withdrawn_from()" classname="banking.BankAccountTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

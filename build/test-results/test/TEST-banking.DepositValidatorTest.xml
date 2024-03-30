@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.DepositValidatorTest" tests="18" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:19" hostname="DESKTOP-LCK14AR" time="0.088">
+  <properties/>
+  <testcase name="invalid_if_given_a_num_number_for_id()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_more_than_3_arguments()" classname="banking.DepositValidatorTest" time="0.003"/>
+  <testcase name="invalid_if_deposit_amount_into_a_checking_account_is_over_1000()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_deposit_amount_into_a_savings_account_is_over_2500()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="valid_if_given_id_belongs_to_a_savings_account()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="valid_if_deposit_amount_into_a_savings_account_is_under_2500()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_deposit_amount_is_negative()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="valid_if_command_contains_3_arguments()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_given_id_belongs_to_a_cd_account()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="valid_if_deposit_amount_into_a_checking_account_is_1000()" classname="banking.DepositValidatorTest" time="0.0"/>
+  <testcase name="valid_if_deposit_amount_into_a_savings_account_is_2500()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_given_a_num_number_for_deposit_amount()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_less_than_3_arguments()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="valid_if_deposit_amount_into_a_checking_account_is_under_1000()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="valid_if_given_8_digit_id_belongs_to_an_account_within_the_bank()" classname="banking.DepositValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_given_8_digit_id_does_not_belong_to_an_account_within_the_bank()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <testcase name="valid_if_given_id_belong_to_a_checking_account()" classname="banking.DepositValidatorTest" time="0.003"/>
+  <testcase name="valid_if_deposit_amount_is_0()" classname="banking.DepositValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

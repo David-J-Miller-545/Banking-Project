@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.PassTimeValidatorTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:19" hostname="DESKTOP-LCK14AR" time="0.021">
+  <properties/>
+  <testcase name="invalid_if_number_of_months_is_an_integer_represented_by_a_decimal()" classname="banking.PassTimeValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_less_than_2_arguments()" classname="banking.PassTimeValidatorTest" time="0.003"/>
+  <testcase name="valid_if_number_of_months_is_1()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_number_of_months_is_less_than_1()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_number_of_months_is_string()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_number_of_months_is_a_number_that_is_not_an_integer()" classname="banking.PassTimeValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_number_of_months_is_more_than_60()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="valid_if_number_of_months_is_between_1_and_60()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_given_more_than_2_arguments()" classname="banking.PassTimeValidatorTest" time="0.001"/>
+  <testcase name="valid_if_command_contains_2_arguments()" classname="banking.PassTimeValidatorTest" time="0.0"/>
+  <testcase name="valid_if_number_of_months_is_60()" classname="banking.PassTimeValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

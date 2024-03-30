@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.DepositProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:19" hostname="DESKTOP-LCK14AR" time="0.001">
+  <properties/>
+  <testcase name="processor_deposits_money_in_account()" classname="banking.DepositProcessorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

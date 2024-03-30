@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.TransferValidatorTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:19" hostname="DESKTOP-LCK14AR" time="0.178">
+  <properties/>
+  <testcase name="valid_if_deposit_command_for_similar_case_is_valid()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="valid_if_first_given_8_digit_id_belongs_to_an_account_within_the_bank()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_transfer_amount_is_negative()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="valid_if_command_contains_4_arguments()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_withdraw_command_for_similar_case_is_invalid()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_less_than_4_arguments()" classname="banking.TransferValidatorTest" time="0.005"/>
+  <testcase name="valid_if_savings_to_checking_transfer()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="valid_if_transfer_amount_is_0()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_given_a_num_number_for_withdraw_amount()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_first_given_id_belongs_to_a_cd_account()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_deposit_command_for_similar_case_is_invalid()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_second_given_id_belongs_to_a_cd_account()" classname="banking.TransferValidatorTest" time="0.0"/>
+  <testcase name="valid_if_checking_to_checking_transfer()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_first_given_8_digit_id_does_not_belong_to_an_account_within_the_bank()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_second_given_8_digit_id_does_not_belong_to_an_account_within_the_bank()" classname="banking.TransferValidatorTest" time="0.016"/>
+  <testcase name="valid_if_checking_to_savings_transfer()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_self_to_self_transfer()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_more_than_4_arguments()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="valid_if_second_given_8_digit_id_belongs_to_an_account_within_the_bank()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="valid_if_withdraw_command_for_similar_case_is_valid()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_given_a_num_number_for_first_id()" classname="banking.TransferValidatorTest" time="0.001"/>
+  <testcase name="valid_if_savings_to_savings_transfer()" classname="banking.TransferValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_a_num_number_for_second_id()" classname="banking.TransferValidatorTest" time="0.03"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

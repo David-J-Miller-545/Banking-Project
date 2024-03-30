@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.SavingsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:19" hostname="DESKTOP-LCK14AR" time="0.008">
+  <properties/>
+  <testcase name="savings_has_not_withdrawn_this_month_when_created()" classname="banking.SavingsTest" time="0.001"/>
+  <testcase name="savings_when_created_has_0_balance()" classname="banking.SavingsTest" time="0.001"/>
+  <testcase name="savings_has_not_withdraw_this_month_if_reset()" classname="banking.SavingsTest" time="0.001"/>
+  <testcase name="savings_has_withdrawn_this_month_if_withdrawn_from()" classname="banking.SavingsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

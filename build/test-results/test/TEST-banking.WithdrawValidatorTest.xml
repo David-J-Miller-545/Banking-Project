@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.WithdrawValidatorTest" tests="26" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:19" hostname="DESKTOP-LCK14AR" time="0.313">
+  <properties/>
+  <testcase name="invalid_if_attempt_to_withdraw_twice_from_savings_account_in_the_same_month()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_a_num_number_for_id()" classname="banking.WithdrawValidatorTest" time="0.003"/>
+  <testcase name="valid_if_attempt_to_withdraw_twice_from_savings_account_in_different_months()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="valid_if_withdraw_amount_from_a_cd_account_is_the_balance()" classname="banking.WithdrawValidatorTest" time="0.079"/>
+  <testcase name="invalid_if_given_more_than_3_arguments()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="valid_if_attempt_to_do_a_full_withdraw_from_cd_after_12_months_have_passed_since_creation()" classname="banking.WithdrawValidatorTest" time="0.003"/>
+  <testcase name="valid_if_given_id_belongs_to_a_cd_account()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_given_a_num_number_for_withdraw_amount()" classname="banking.WithdrawValidatorTest" time="0.003"/>
+  <testcase name="valid_if_withdraw_amount_from_a_checking_account_is_under_400()" classname="banking.WithdrawValidatorTest" time="0.003"/>
+  <testcase name="valid_if_given_id_belongs_to_a_savings_account()" classname="banking.WithdrawValidatorTest" time="0.004"/>
+  <testcase name="invalid_if_withdraw_amount_from_a_cd_account_is_under_balance()" classname="banking.WithdrawValidatorTest" time="0.009"/>
+  <testcase name="valid_if_command_contains_3_arguments()" classname="banking.WithdrawValidatorTest" time="0.003"/>
+  <testcase name="invalid_if_withdraw_amount_from_a_savings_account_is_over_1000()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="valid_if_withdraw_amount_is_0()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="valid_if_withdraw_amount_from_a_cd_account_is_over_balance()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="valid_if_withdraw_amount_from_a_savings_account_is_under_1000()" classname="banking.WithdrawValidatorTest" time="0.002"/>
+  <testcase name="valid_if_attempt_to_do_a_full_withdraw_from_cd_12_months_have_passed_since_creation()" classname="banking.WithdrawValidatorTest" time="0.013"/>
+  <testcase name="valid_if_withdraw_amount_from_a_checking_account_is_400()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="invalid_if_given_less_than_3_arguments()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="invalid_if_attempt_to_do_a_full_withdraw_from_cd_before_12_months_have_passed_since_creation()" classname="banking.WithdrawValidatorTest" time="0.001"/>
+  <testcase name="valid_if_given_8_digit_id_belongs_to_an_account_within_the_bank()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="invalid_if_withdraw_amount_from_a_checking_account_is_over_400()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="invalid_if_given_8_digit_id_does_not_belong_to_an_account_within_the_bank()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="valid_if_given_id_belong_to_a_checking_account()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="invalid_if_withdraw_amount_is_negative()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <testcase name="valid_if_withdraw_amount_from_a_savings_account_is_1000()" classname="banking.WithdrawValidatorTest" time="0.0"/>
+  <system-out><![CDATA[true
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

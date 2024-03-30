@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CreateProcessorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:18" hostname="DESKTOP-LCK14AR" time="0.08">
+  <properties/>
+  <testcase name="processor_creates_new_cd_with_given_balance()" classname="banking.CreateProcessorTest" time="0.004"/>
+  <testcase name="processor_creates_new_cd_account()" classname="banking.CreateProcessorTest" time="0.007"/>
+  <testcase name="processor_creates_new_account_in_bank()" classname="banking.CreateProcessorTest" time="0.003"/>
+  <testcase name="processor_creates_new_savings_account()" classname="banking.CreateProcessorTest" time="0.002"/>
+  <testcase name="processor_creates_new_checking_account()" classname="banking.CreateProcessorTest" time="0.006"/>
+  <testcase name="processor_makes_new_account_with_given_apr()" classname="banking.CreateProcessorTest" time="0.007"/>
+  <testcase name="processor_makes_new_account_with_given_id()" classname="banking.CreateProcessorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

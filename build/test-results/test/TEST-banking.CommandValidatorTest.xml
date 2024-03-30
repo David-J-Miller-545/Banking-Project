@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.CommandValidatorTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:18" hostname="DESKTOP-LCK14AR" time="0.192">
+  <properties/>
+  <testcase name="valid_if_first_argument_is_deposit_keyword()" classname="banking.CommandValidatorTest" time="0.003"/>
+  <testcase name="valid_if_first_argument_is_transfer_keyword()" classname="banking.CommandValidatorTest" time="0.087"/>
+  <testcase name="valid_if_first_argument_is_create_keyword()" classname="banking.CommandValidatorTest" time="0.027"/>
+  <testcase name="invalid_if_first_argument_is_unknown_keyword()" classname="banking.CommandValidatorTest" time="0.011"/>
+  <testcase name="valid_if_first_argument_is_withdraw_keyword()" classname="banking.CommandValidatorTest" time="0.01"/>
+  <testcase name="valid_if_first_argument_is_pass_keyword()" classname="banking.CommandValidatorTest" time="0.004"/>
+  <testcase name="validator_is_case_insensitive()" classname="banking.CommandValidatorTest" time="0.002"/>
+  <testcase name="invalid_if_contains_spaces_at_beginning_of_command()" classname="banking.CommandValidatorTest" time="0.002"/>
+  <testcase name="valid_if_contains_spaces_at_end_of_command()" classname="banking.CommandValidatorTest" time="0.001"/>
+  <testcase name="invalid_if_multiple_spaces_in_middle_of_command()" classname="banking.CommandValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="banking.BankTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2023-12-07T23:05:17" hostname="DESKTOP-LCK14AR" time="0.188">
+  <properties/>
+  <testcase name="bank_can_remove_accounts()" classname="banking.BankTest" time="0.004"/>
+  <testcase name="bank_has_zero_accounts_when_created()" classname="banking.BankTest" time="0.004"/>
+  <testcase name="deposit_by_id_twice_through_bank_works()" classname="banking.BankTest" time="0.001"/>
+  <testcase name="correct_account_gets_money_when_deposit_by_id_through_bank()" classname="banking.BankTest" time="0.002"/>
+  <testcase name="bank_apr_calculation_works_for_two_months()" classname="banking.BankTest" time="0.04"/>
+  <testcase name="bank_has_no_accounts_when_one_is_added_to_it_and_then_removed()" classname="banking.BankTest" time="0.003"/>
+  <testcase name="bank_can_retrieve_the_correct_account()" classname="banking.BankTest" time="0.005"/>
+  <testcase name="correct_account_loses_money_when_withdrawn_by_id_through_bank()" classname="banking.BankTest" time="0.015"/>
+  <testcase name="bank_has_one_account_when_one_is_added_to_it()" classname="banking.BankTest" time="0.004"/>
+  <testcase name="bank_has_two_accounts_when_two_are_added_to_it()" classname="banking.BankTest" time="0.004"/>
+  <testcase name="bank_apr_calculation_works_for_one_month()" classname="banking.BankTest" time="0.002"/>
+  <testcase name="withdraw_by_id_twice_through_bank_works()" classname="banking.BankTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
